@@ -152,12 +152,8 @@ body {
     text-decoration: none;
 }
 
-.end .second {
-    color: #f4f4fd;
-}
-
+.end .second,
 .end .text {
-    font-family: var(--primaryrob-font);
     color: #f4f4fd;
 }
 
