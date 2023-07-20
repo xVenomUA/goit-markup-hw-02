@@ -26,7 +26,8 @@ body {
 .link {
     text-decoration: none;
 }
-.nav .link {
+.nav .link,
+.end .link {
     font-family: var(--primaryral-font);
     color: var(--iris-color);
     font-size: 18px;
@@ -137,17 +138,6 @@ body {
     letter-spacing: 0.025rem;
 }
 /*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
-
-.end .link {
-    font-family: var(--primaryral-font);
-    color: var(--iris-color);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
 
 .end .second,
 .end .text {
