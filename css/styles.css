@@ -32,7 +32,7 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.034rem;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .second {
@@ -49,19 +49,21 @@ body {
     text-transform: none;
 }
 
-.nav .list .link:hover,
-.nav .list .link:focus {
+.nav .link:hover,
+.nav .link:focus {
     color: var(--howe-color);
 }
-.adre .list .link {
+.adre .link {
     color: var(--slate-color);
 
     line-height: 1.5;
     letter-spacing: 0.02rem;
+}
+.adre {
     font-style: normal;
 }
-.adre .list .link:hover,
-.adre .list .link:focus {
+.adre .link:hover,
+.adre .link:focus {
     color: var(--howe-color);
 }
 /*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
@@ -121,7 +123,7 @@ body {
     background-color: #f4f4fd;
 }
 
-.team .list .liii {
+.team .liii {
     background-color: var(--primary-white-color);
 }
 
@@ -160,7 +162,7 @@ body {
 }
 
 /*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
-.portfolio .list .buttoo {
+.portfolio .buttoo {
     font-family: var(--primaryrob-font);
     color: var(--iris-color);
     background-color: var(--cloud-color);
@@ -171,8 +173,8 @@ body {
     cursor: pointer;
 }
 
-.portfolio .list .buttoo:hover,
-.portfolio .list .buttoo:focus {
+.portfolio .buttoo:hover,
+.portfolio .buttoo:focus {
     color: var(--primary-white-color);
     background-color: #404bbf;
 }
@@ -183,4 +185,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.025rem;
+}
+.portfolio .text {
+    color: var(--slate-color);
 }
