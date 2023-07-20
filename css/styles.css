@@ -56,12 +56,11 @@ body {
 }
 .adre .link {
     color: var(--slate-color);
-
     line-height: 1.5;
     letter-spacing: 0.02rem;
 }
 .adre {
-    font-style: normal;
+    font-style: normal; /*Хотіло для завдання, хоча можна і в.adre .link запхати і теж працює */
 }
 .adre .link:hover,
 .adre .link:focus {
