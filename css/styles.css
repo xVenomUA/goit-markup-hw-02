@@ -68,7 +68,8 @@ body {
 }
 /*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
 
-.service {
+.service,
+.end {
     background-color: var(--primary-navyblue-color);
 }
 
@@ -136,10 +137,6 @@ body {
     letter-spacing: 0.025rem;
 }
 /*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
-
-.end {
-    background-color: var(--primary-navyblue-color);
-}
 
 .end .link {
     font-family: var(--primaryral-font);
