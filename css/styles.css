@@ -100,15 +100,6 @@ body {
 
 /*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
 
-.benefit .h-tree {
-    color: var(--primary-navyblue-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-}
-/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
-
 .i-two {
     color: var(--primary-navyblue-color);
     font-size: 36px;
@@ -130,7 +121,8 @@ body {
 }
 
 .team .i-tree,
-.portfolio .htwo {
+.portfolio .htwo,
+.benefit .h-tree {
     color: var(--primary-navyblue-color);
     font-size: 20px;
     font-weight: 500;
