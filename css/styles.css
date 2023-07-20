@@ -129,8 +129,8 @@ body {
     background-color: var(--primary-white-color);
 }
 
-.team .i-tree {
-    font-family: var(--primaryrob-font);
+.team .i-tree,
+.portfolio .htwo {
     color: var(--primary-navyblue-color);
     font-size: 20px;
     font-weight: 500;
@@ -160,14 +160,6 @@ body {
 .portfolio .buttoo:focus {
     color: var(--primary-white-color);
     background-color: #404bbf;
-}
-
-.portfolio .htwo {
-    color: var(--primary-navyblue-color);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.025rem;
 }
 .portfolio .text {
     color: var(--slate-color);
